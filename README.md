@@ -1,5 +1,5 @@
 ## NCBI Genome Downloader
-This Python script enables bulk downloading of multiple file types using genomic assembly accession/GenBank accession from a single list.
+This Python script enables bulk downloading of multiple file types directly form NCBI using genomic assembly accession/GenBank accession from a single list.
 
 ## Description
 The script reads a CSV file containing genome information, including Assembly Accession or GenBank Accession IDs. 
