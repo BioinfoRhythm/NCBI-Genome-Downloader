@@ -7,11 +7,13 @@ It utilizes the NCBI curl to download various genomic data files for genomes wit
 
 ## Prerequisites
 Python 3.x
+
 curl (usually pre-installed on Unix-based systems)
 
 ## Usage
-1. Ensure your CSV file contains a column named "Assembly Accession" or "GenBank Accession" with accession IDs for the genomes.
-2. Update the file path in the script to point to your input CSV file containing genome information:
+1. Make a folder conatining .csv file and ncbi_genome_downloader.py script.
+2. Ensure your CSV file contains a column named "Assembly Accession" or "GenBank Accession" with accession IDs for the genomes.
+3. Update the file path in the script to point to your input CSV file containing genome information:
 
    df = pd.read_csv("/path/to/your/csv/file.csv")
 4. Run the script:
