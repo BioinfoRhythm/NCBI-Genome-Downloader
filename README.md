@@ -17,7 +17,7 @@ curl (usually pre-installed on Unix-based systems)
 
    df = pd.read_csv("/path/to/your/csv/file.csv")
 4. Run the script:
-  python ncbi_genome_downloader.py
+  python3 ncbi_genome_downloader.py
 
 5. After execution, the script will download genomic data files for genomes with valid accession IDs. Files will be saved in the current directory with the accession ID as the filename.
 6. A missing.txt file will be generated containing the names of genomes with missing or invalid accession IDs.
